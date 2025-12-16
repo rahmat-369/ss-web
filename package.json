@@ -1,0 +1,13 @@
+{
+  "name": "vercel-screenshot-api",
+  "version": "1.0.0",
+  "description": "API Screenshot Serverless di Vercel",
+  "main": "api/screenshot.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer-core": "^10.1.0"
+  }
+}
